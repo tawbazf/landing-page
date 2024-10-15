@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #e0ded8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+header .logo h1 {
+    font-size: 24px;
+    color: #555;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+header .samsung-logo h2 {
+    font-size: 20px;
+    color: #000;
+}
+
+.hero {
+    text-align: center;
+    padding: 40px;
+    background-color: #fff;
+}
+
+.hero h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #555;
+}
+
+.hero .blue-star {
+    color: #007aff;
+}
+
+.hero img {
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+.features {
+    background-color: #eee;
+    padding: 30px;
+    text-align: center;
+}
+
+.features h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.specs {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.spec {
+    text-align: left;
+}
+
+.spec h4 {
+    font-size: 18px;
+    color: #333;
+}
+
+.spec p {
+    font-size: 16px;
+    color: #555;
+}
+
+.battery {
+    padding: 40px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.battery h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.battery p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.slider {
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+#slide1:checked ~ .slides {
+    transform: translateX(0);
+}
+#slide2:checked ~ .slides {
+    transform: translateX(-100%);
+}
+#slide3:checked ~ .slides {
+    transform: translateX(-200%);
+}
+
+.navigation {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.navigation label {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0 5px;
+    background: #ccc;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+input[type="radio"]:checked + .navigation label {
+    background: #666;
+}
