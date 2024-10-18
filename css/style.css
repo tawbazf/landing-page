@@ -1,0 +1,463 @@
+body,
+html {
+    font-family: 'Arial', sans-serif;
+    margin: auto;
+    background-color: #BEB7A4;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.penpen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+    background-color: #F9F9F9;
+}
+
+.logoimg {
+    width: 150px;
+    height: auto;
+}
+
+.imgsocial {
+    width: 10%;
+}
+
+.titleheader {
+    font-size: 2rem;
+    color: #BEB7A4;
+    font-weight: bold;
+}
+
+.Menuheader {
+    display: flex;
+    justify-content: center;
+    background-color: #BEB7A4;
+    padding: 10px 0;
+}
+
+.Menuheader nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.Menuheader nav ul li {
+    display: inline;
+}
+
+.Menuheader nav ul li a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #333;
+    padding: 5px 10px;
+}
+
+.Menuheader nav ul li a:hover {
+    color: #333;
+}
+
+/* Slider */
+.slider {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    width: 100%;
+}
+
+.slide {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.slide img {
+    width: 70%;
+    object-fit: cover;
+}
+
+/* Features Section */
+.features {
+    padding: 40px;
+    background-color: #BEB7A4;
+    text-align: center;
+}
+
+.features h3 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.specs {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.spec h4 {
+    color: #333;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.spec p {
+    color: #333;
+}
+
+.detail-section {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 40px 0;
+    background-color: #BEB7A4;
+    align-items: center;
+}
+
+.color-options {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 40px 0;
+    background-color: #BEB7A4;
+    align-items: center;
+}
+
+.battery-details {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px 0;
+    background-color: #BEB7A4;
+    align-items: center;
+}
+
+.battery-text {
+    width: 50%;
+    padding-right: 30px;
+}
+
+.battery-text h4 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.battery-image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.battery-image img {
+    width: 100%;
+    max-width: 400px;
+}
+
+.about-samsung {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: #BEB7A4
+}
+
+.color-section {
+    padding: 40px;
+    background-color: #BEB7A4;
+    text-align: center;
+}
+
+.imgtemplat {
+    width: 70%;
+}
+
+.imgcolor {
+    width: 20%;
+}
+
+.color-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+input[type="radio"i] {
+    background-color: initial;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 3px 3px 0px 5px;
+    padding: initial;
+    border: initial;
+}
+
+.color-item input[type="radio"] {
+    display: none;
+}
+
+input[type="radio"]:checked+.color-label {
+    border: 4px solid #eab029;
+}
+
+.color-label.beige {
+    background-color: #EEECE2;
+}
+
+.color-label.gris {
+    background-color: #616161;
+}
+
+.color-label.black {
+    background-color: black;
+}
+
+
+.color {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    margin: auto;
+}
+
+.color-text {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+.color-section .color-image {
+    margin-top: 20px;
+}
+
+.color-section .color-image img {
+    width: 70%;
+    max-width: 800px;
+}
+
+.contact {
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact h3 {
+    font-size: 2rem;
+    text-align: center;
+    color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.newsletter {
+    display: flex;
+    margin-right: 500px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contact-form {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact-form button {
+    background-color: yellow;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    float: right;
+    padding: 5px;
+    margin-top: -40px;
+}
+
+.contact-form button:hover {
+    background-color: #005bb5;
+}
+
+.column {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    color: #DBCCA0;
+}
+
+.footer {
+    padding: 40px;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer ul li a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.footer ul li a:hover {
+    color: #fff;
+}
+
+.footer p {
+    color: #ccc;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.footer .social-media a img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.contact-footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.column {
+    color: #DBCCA0;
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+
+.column ul {
+    color: #DBCCA0;
+    list-style: none;
+    padding: 0;
+}
+
+.column li {
+    color: #DBCCA0;
+    margin-bottom: 10px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-media a {
+    margin: 0 10px;
+}
+
+.imgsocial {
+    width: 30px;
+    height: 30px;
+}
+
+.color-label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid transparent;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.stockage-container {
+    background-color: #BEB7A4;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.stockage-title,
+.price-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.stockage-options,
+.prices {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.option,
+.price {
+    font-size: 14px;
+    color: #333;
+    padding: 5px;
+}
+
+.option {
+    font-weight: bold;
+}
+
+.price {
+    color: #000;
+}
+
+.hhh {
+    color: #000;
+}

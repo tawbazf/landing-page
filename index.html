@@ -1,55 +1,42 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galaxy S24 Ultra</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css\style.css">
 </head>
+
 <body>
-    <header>
+    <header1>
         <div class="logo">
-            <h1>Galaxy S24 Ultra</h1>
+            <h1 class="titleheader">Galaxy S24 Ultra</h1>
+            <img class="logoimg" src="./assets/images/sumsung logo.jpg" alt="Samsung Logo">
         </div>
+    </header1>
+    <header2 class="Menuheader">
         <nav>
             <ul>
-                <li><a href="#">Nos Services</a></li>
-                <li><a href="#">Nos Produits</a></li>
-                <li><a href="#">Nos Clients</a></li>
-                <li><a href="#">À Propos</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Support</a></li>
-                <li><a href="#">Acheter</a></li>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#nosservices">NOS SERVICES</a></li>
+                <li><a href="#nosproduits">NOS PRODUITS</a></li>
+                <li><a href="#nosclients">NOS CLIENTS</a></li>
+                <li><a href="#apropos">À PROPOS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <li><a href="#support">SUPPORT</a></li>
+                <li><a href="#acheter">ACHETER</a></li>
             </ul>
         </nav>
-        <div class="samsung-logo">
-            <img src="4955f570b6a593717a23b1bb20e38d98.jpg" alt="Galaxy S24 FE">
-        </div>
-    </header>
-    <div class="slider">
-        <input type="radio" name="slider" id="slide1" checked>
-        <input type="radio" name="slider" id="slide2">
-        <input type="radio" name="slider" id="slide3">
+    </header2>
 
+    <div class="slider">
         <div class="slides">
             <div class="slide">
-                <img src="n_africa-feature--nbsp-543561006.webp" alt="Image 1">
+                <img class="imgtemplat" src="assets\images\galaxy is here.webp" alt="Image 1">
             </div>
-            <div class="slide">
-                <img src="galaxy-s24-ultra-highlights-s-pen.jpg" alt="Image 2">
-            </div>
-            <div class="slide">
-                <img src="galaxy-s24-ultra-highlights-camera-overview.jpg" alt="Image 3">
-            </div>
-        </div>
-
-        <div class="navigation">
-            <label for="slide1"></label>
-            <label for="slide2"></label>
-            <label for="slide3"></label>
         </div>
     </div>
-   
 
     <section class="features">
         <h3>Caractéristiques</h3>
@@ -68,19 +55,230 @@
             </div>
             <div class="spec">
                 <h4>Taille (Afficheur principal)</h4>
-                <p>170.1mm (6.7")</p>
+                <p>170.1 mm (6.7")</p>
             </div>
         </div>
     </section>
 
-    <section class="battery">
-        <h3>Une batterie qui vous permet de jouer plus longtemps</h3>
-        <p>Profitez d'une autonomie prolongée avec une grande batterie de 4 700 mAh.</p>
-        <p>Parfaitement optimisée pour le streaming vidéo, c'est votre compagnon ultime pour un divertissement ininterrompu.</p>
+    <section class="battery-details">
+        <div class="battery-text">
+            <br>
+            <h4>Plus de:</h4>
+            <p>Une batterie qui vous permet de jouer plus longtemps.<br>
+                Profitez d’une autonomie prolongée avec une grande batterie de 4 700 mAh.<br>
+                Parfaitement optimisée pour le streaming vidéo, c’est votre compagnon ultime pour un divertissement
+                ininterrompu.
+            </p>
+        </div>
+        <div class="battery-image">
+            <img class="imgtemplat" src="assets/images/batterie.png" alt="Performance de la batterie Galaxy S24 FE">
+        </div>
     </section>
 
-    <footer>
-        <p>© 2024 Samsung. Tous droits réservés.</p>
-    </footer>
+    <section class="color-section">
+        <div class="color-text">
+            <div class="color-left">
+                <p>Couleur</p>
+                <h4>Choisissez votre couleur:</h4>
+            </div>
+            <div class="color-right">
+                <h4>Nouvelles couleurs et chic minéral</h4>
+            </div>
+        </div>
+
+        <div class="color-image">
+            <img class="imgtemplat" src="assets/images/galaxy-s24-ultra-highlights-color-carousel-global-mo.jpg"
+                alt="Couleurs Galaxy S24">
+        </div>
+    </section>
+    <h2>Le stylet S Pen intégré écrit un tout nouveau chapitre</h2>
+    <br>
+    <h3 class="penpen">L’héritage du Galaxy Note est bien vivant. <br>
+        Écrivez, appuyez et naviguez précisément avec vos doigts, <br>
+        au goût du jour sur le nouvel écran plat.</h3>
+    <section class="details">
+        <div class="detail-section">
+            <img class="imgcolor" src="assets/images/pen.png" alt="S Pen">
+            <p>Utilisez votre S Pen pour libérer toute votre créativité.</p>
+        </div>
+        <div class="detail-section">
+            <img class="imgtemplat" src="assets/images/galaxy-s24-ultra-highlights-s-pen.jpg" alt="Pliable">
+            <p>Pliable et pratique, apportez-le partout avec vous.</p>
+        </div>
+        <div class="detail-section">
+            <img class="imgtemplat" src="assets/images/galaxy-s24-ultra-highlights-camera-overview.jpg" alt="Caméra">
+            <p>Photographiez comme un pro avec un appareil photo de haute résolution.</p>
+        </div>
+    </section>
+    <section class="about-samsung">
+        <div class="about-samsung">
+            <h2 id="apropos">A propos du samsung:</h2>
+            <ul class="about-samsung">
+                <li>Informations sur l’entreprise</li>
+                <li>Domaines d’activité</li>
+                <li>Image de marque</li>
+                <li>Carrières</li>
+                <li>Investisseurs</li>
+                <li>Presse</li>
+                <li>Éthique</li>
+                <li>Design Samsung</li>
+            </ul>
+        </div>
+    </section>
+    <section class="color-options">
+        <h3>Couleurs disponibles</h3>
+        <div class="colors">
+            <div class="color-item">
+                <h2>beige</h2>
+                <input type="radio" name="color" value="beige" id="beige">
+                <label for="beige" class="color-label beige"></label>
+                <img class="imgcolor" src="assets/images/yellow.png" alt="Beige">
+            </div>
+            <div class="color-item">
+                <h2>gris</h2>
+                <input type="radio" name="color" value="gris" id="gris">
+                <label for="gris" class="color-label gris"></label>
+                <img class="imgcolor" src="assets/images/marble.png" alt="gris">
+            </div>
+            <div class="color-item">
+                <h2>black</h2>
+                <input type="radio" name="color" value="black" id="black">
+                <label for="black" class="color-label black"></label>
+                <img class="imgcolor" src="assets/images/black.png" alt="black">
+            </div>
+        </div>
+
+        <div class="stockage-container">
+            <div class="stockage-title">Stockage</div>
+            <div class="stockage-options">
+                <div class="option">256Go | 8Go</div>
+                <div class="option">256Go | 12Go</div>
+                <div class="option">512Go | 12Go</div>
+            </div>
+
+            <div class="price-title">Choisissez votre stockage :</div>
+            <div class="prices">
+                <div class="price">11,990.00 DH</div>
+                <div class="price">12,990.00 DH</div>
+                <div class="price">13,770.00 DH</div>
+            </div>
+        </div>
+        <h2>Contactez-nous</h2>
+    </section>
+    <section class="contact">
+        <br>
+        <div class="contact-form">
+            <form action="#" method="POST">
+                <div>
+                    <label for="name"></label>
+                    <input type="text" placeholder="Nom et Prénom" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="email"></label>
+                    <input type="email" id="email" placeholder="email" name="email" required>
+                </div>
+                <div>
+                    <label for="phone"></label>
+                    <input type="tel" id="phone" name="phone" placeholder="phone" required>
+                </div>
+                <div>
+                    <label for="subject"></label>
+                    <input type="text" id="subject" name="subject" placeholder="subject" required>
+                </div>
+                <div>
+                    <label for="message"></label>
+                    <textarea id="message" name="message" placeholder="message" required></textarea>
+                </div>
+                <div class="newsletter">
+                    <input type="checkbox" id="newsletter" placeholder="Recevez notre newsletter" name="newsletter">
+                    <label for="newsletter">recevez notre newsletter</label>
+                </div>
+                <div class="submit-btn">
+                    <button type="submit">Envoyer</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section class="contact-footer">
+        <footer>
+            <div class="footer-section">
+                <div class="column">
+                    <ul>
+                        <h3 class="hhh" id="nosservices"> NOS SERVICES</h3>
+                        <li>Promotions</li>
+                        <li>Samsung Experience Store</li>
+                        <li>Où Acheter En Magasin</li>
+                        <li>FAQ Shop</li>
+                        <li>Samsung Rewards</li>
+                        <li>Avantages étudiants</li>
+                        <li>Avantages entreprises</li>
+                        <li>Explore</li>
+                        <li>Politique de confidentialité</li>
+                    </ul>
+                </div>
+
+                <div class="column">
+                    <ul>
+                        <h3 class="hhh" id="nosproduits">NOS PRODUITS</h3>
+                        <li>Smartphones</li>
+                        <li>Tablettes</li>
+                        <li>Audio Sound</li>
+                        <li>Montres Connectées</li>
+                        <li>Smart Switch</li>
+                        <li>Accessoires Mobiles</li>
+                        <li>Téléviseurs</li>
+                        <li>Sound Devices</li>
+                        <li>Réfrigérateurs</li>
+                        <li>Lessive</li>
+                        <li>Climatisation</li>
+                        <li>Appareils de Cuisson</li>
+                        <li>Moniteurs</li>
+                    </ul>
+                </div>
+
+                <div class="column">
+                    <ul>
+                        <h3 class="hhh" id="nosclients">NOS CLIENTS</h3>
+                        <li>"Ce que disent nos premiers utilisateurs"</li>
+                        <li>“Le S24 galaxy a changé ma façon d'utiliser mon smartphone.” - Alice, Blogueuse Tech</li>
+                        <li>“Un design élégant et des performances incroyables !” - Thomas, Graphiste</li>
+                        <li>“Je n'ai jamais eu un appareil photo aussi bon sur un téléphone.” - Sarah, Photographe</li>
+                    </ul>
+                </div>
+
+                <div class="column">
+                    <ul>
+                        <h3 class="hhh" id="support">SUPPORT</h3>
+                        <li>Contactez-nous</li>
+                        <li>WhatsApp Maroc</li>
+                        <li>WhatsApp Algérie</li>
+                        <li>WhatsApp Tunisie</li>
+                        <li>Live Chat</li>
+                        <li>Samsung Members</li>
+                        <li>Langage des signes</li>
+                        <li>Enregistrement de produit</li>
+                        <li>Suivre ma réparation</li>
+                        <li>Centre de service</li>
+                        <li>FAQ</li>
+                        <li>Email au PDG</li>
+                        <li>Donner mon avis</li>
+                        <li>Service et garantie</li>
+                        <li>Conditions générales</li>
+                    </ul>
+                </div>
+            </div>
+            <h2>Suivez-nous sur</h2>
+            <div class="social-media">
+                <a href="https://www.instagram.com/samsung/"><img class="imgsocial"
+                        src="assets/images/Instagram_icon.png" alt="Instagram"></a>
+                <a href="https://www.facebook.com/SamsungMaroc/"><img class="imgsocial" src="assets/images/fbicon.jpg"
+                        alt="Facebook"></a>
+                <a href="https://x.com/SamsungMobile"><img class="imgsocial" src="assets/images/X.png"
+                        alt="Twitter"></a>
+            </div>
+            <h3 class="penpen">© 2024 Samsung. Tous droits réservés.</h3>
+        </footer>
+    </section>
 </body>
+
 </html>
